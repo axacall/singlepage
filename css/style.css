@@ -1,0 +1,393 @@
+body, h1{
+	margin:0;
+	padding:0;
+
+}
+h1{
+	margin: 0em;
+}
+a{
+	list-style-type: none;
+	text-decoration: none;
+	color:white;
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	
+}
+.header{
+	width: 100%;
+	height: 100px;
+	color:white;
+	display: flex;
+	justify-content: space-between;
+	opacity: .7;
+	position: absolute;
+	top:0;
+
+}
+.logo{
+	box-sizing:border-box;
+	width: 220px;
+	height: 100px;
+	padding:15px;
+	color:#FFF600;
+	margin-left: 75px;
+	/*background-color:#EBE313;*/
+	font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 2rem;
+	letter-spacing:-4px;
+	line-height: 100px;
+	display: flex;
+	align-items: center;
+}
+.logo strong{
+	font-weight:bold;
+	font-family: 'Poppins', sans-serif;
+}
+.logo span{
+	font-weight: 400;
+}
+.logo p{
+	font-weight: 100;
+}
+.menu{
+	position: absolute;
+	top:0;
+	right:0;
+	width: 550px;
+	height: 100px;
+	padding-right: 60px;
+
+	display: flex;
+	align-items: center;
+	float: right;
+	display: block;
+	
+}
+.menu li{
+	display: inline;
+	margin:10px;
+	margin-left: 35px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	/*letter-spacing: 1px;*/
+	font-weight: 400;
+	line-height: 95px;
+
+}
+.menu ul{
+	list-style-type: none;
+	text-decoration: none;
+	/*background-color: yellow;*/
+	margin:0;
+	padding:0;
+}
+.anasayfa{
+
+	width: 100%;
+	height: 650px;
+	background: linear-gradient( rgba(0,0,0,1), rgba(0, 0, 0, 0.7) ),url(erol.jpg) no-repeat center center fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+	color:white;
+}
+
+.hakkimda{
+
+	width: 100%;
+	min-height: 650px;
+	background-color: black;
+	color:white;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.portfolyo{
+	padding-top: 100px;
+	padding-bottom: 20px;
+	width: 100%;
+	min-height: 650px;
+	background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+ background-blend-mode: normal,color-burn;
+	color:white;
+
+
+
+}
+.portfolyo img{
+
+	border-radius: 6px;
+}
+.portfolyo h1{
+	font-family: 'Poppins', sans-serif;
+	padding:10px;
+	color: black;
+	margin-left:75px;
+
+}
+.galeriContainer{
+	width: 100%;
+	min-height: 650px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+/*	align-items: center;*/
+
+}
+
+.kontak{
+	width: 100%;
+	min-height: 550px;
+	padding-top: 70px;
+	color:white;
+	display: flex;
+	justify-content: center;
+}
+.footer{
+	width: 100%;
+	height: 120px;
+	background-color: black;
+}
+#hdr{
+	display: block;
+}
+#fullstack{
+	display: inline-block;
+	position:absolute;
+	bottom:70px;
+	font-weight: bold;
+	font-size: 1rem;
+	left:86px;
+	font-family: 'Poppins', sans-serif;
+}
+#isim{
+	display: inline-block;
+	position:absolute;
+	bottom:100px;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	font-size: 3rem;
+	left:86px;
+	color:#EEEEEE;
+	letter-spacing: 3px;
+}
+.biografi{
+	width: 400px;
+
+}
+.biografi img{
+	width: 400px;
+	/*border-radius: 400px;*/
+
+}
+.paragraf{
+	width: 500px;
+	margin-left: 10px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	text-align: justify;
+	margin-right: 30px;
+}
+#iissim{
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	font-size: 3rem;
+	left:50px;
+	color:#EEEEEE;
+	letter-spacing: 3px;
+}
+#fullst{
+	font-weight: bold;
+	font-size: 1rem;
+	left:50px;
+	font-family: 'Poppins', sans-serif;
+}
+#contak{
+	position: relative;
+	width:400px;
+	height: 550px;
+	/*background-color: red;*/
+	margin-right: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+#contak strong{
+	
+	border-radius: 25px;
+	padding: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.5rem;
+	position: absolute;
+	top:200px;
+	color:black;
+}
+#resim{
+	width:400px;
+	height: 550px;
+	margin-right: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	background-image: url("../img/adam.jpg");
+	border-radius: 10px;
+}
+#tikla{
+
+	background-color: #231919;
+	border-radius: 25px;
+	padding: 10px 21px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	position: absolute;
+	top:250px;
+	font-weight: bold;
+
+
+}
+.footer{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	color:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 4px;
+}
+.sosyal{
+	float: right;
+	margin-right: 100px;
+	margin-top: 120px;
+	opacity: .3;
+}
+.sosyal img{
+	display: block;
+
+}
+
+.galerim div{
+position: absolute;
+top:0px;
+transition: .4s;
+z-index: 3;
+
+}
+.galerim {
+	position: relative;
+	margin: 20px;
+	width: 297px;
+	height: 307px;
+	overflow: hidden;
+	background-color: black;
+	z-index: 0;
+}
+
+.galerim  strong{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	z-index: 0;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+.galerim  small{
+	position: absolute;
+	bottom: 30px;
+	left: 10px;
+	z-index: 0;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 100;
+}
+#galerim{
+	position: relative;
+	margin: 20px;
+	width: 297px;
+	height: 307px;
+	overflow: hidden;
+	background-color: black;
+	z-index: 0;
+}
+#galerim div{
+position: absolute;
+top:0px;
+transition: .6s;
+z-index: 3;
+
+}
+.btn{
+	color: white;
+}
+.active, .btn:hover {
+  color: yellow;
+}
+
+/*.galerim div{
+	width: 297px;
+	height: 307px;
+	overflow: hidden;
+	transition: .5s;
+	background-color: black;
+	z-index: 0;
+}*/
+/*.galerim div:hover{
+	margin-top: -100px;
+	transition: .5s;
+	z-index: 0;
+	
+}*/
+/*.galerim strong {
+	position: absolute;
+	bottom: 0px;
+	left:10px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}*/
+
+
+/*firefox için  scroll bar duzenleme kodu*/
+
+:root {
+    scrollbar-color: rgb(120, 18, 18, 0) rgb(120, 140, 4, 0) !important;
+    scrollbar-width: thin !important;
+
+}
+
+/*firefox için  scroll bar duzenleme kodu*/
+
+/*chrome için scrollbar duzenleme kodu.*/
+
+::-webkit-scrollbar {
+    width: 5px;
+    background: transparent;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px rgb(224, 109, 109, 0); 
+    border-radius: 10px;
+    
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #C3C3C3;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0D0D0D;
+    
+}
